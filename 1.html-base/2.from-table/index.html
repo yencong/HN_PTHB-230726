@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>form-table</h1>  
+
+<form action="index.html" id="form" method="post" enctype="text/plain">
+  
+
+ <label for="">usename</label> <br/>
+<input type="text" id="usename" name="usename" placeholder="enter your user name" />
+  <br/>
+<label for="">password</label> <br/>
+<input type="password" id="password" name="password"
+placeholder="enter your user name"/>
+   <br>
+   <input type="submit" value="submit" />
+<h1>create account</h1>
+    </form>
+<form action=""> 
+    <label for="firstname">firstname</label>
+    <input type="text" id="firstname"placeholder="enter your firstname">
+    <label for="lastname">lastname</label>
+    <input type="text" id="lastname"placeholder="enter your lastname">
+    <br/>
+    <label for="email">"email</label>
+    <input type="email" id="email"placeholder="enter your email">
+    <label for="number">phone</label>
+    <input type="number" id="number"placeholder="enter your phone">
+    <br/>
+    <label for="password">"password</label>
+    <input type="password" id="password"placeholder="enter your password">
+    <label for="confirmpassword">confirmpassword</label>
+    <input type="password" id="confirmpassword"placeholder="enter your confirmpassword">
+    <br/>
+    <br>
+    <br>
+    <label for="">gender</label>
+    <input type="radio" value="male" name="gender" id="male">
+    <label for="male">male</label>
+    <input type="radio" value="female" name="gender" id="female">
+    <label for="female">female</label>
+
+    <label for="">hobbles</label>
+    <input type="checkbox"  name="hobbles" id="music">
+    <label for="music">music</label>
+    <input type="checkbox"  name="hobbles" id="sports">
+    <label for="sports">sports</label>
+    <br>
+
+    <label for="role">source of income</label>
+    <select name="role" id="role">
+        <option value="employee">employee</option>
+        <option value="boss">boss</option>
+    </select>
+
+    <label for="income">income</label>
+    <input type="range" name="income" id="income" value="30">
+
+    <label for="image">profile image</label>
+    <input type="file" name="image" id="image">
+
+     <br>
+
+      <label for="birthday">birthday</label> 
+      <input type="date" name="birthday" id="birthday">
+      <label for="address">address</label> 
+      <input type="text" name="address" id="address">
+
+      <br>
+
+      <label for="bio">bio</label>
+      <textarea name="bio" id="bio" cols="3" rows="10"></textarea>
+      <button>create</button>
+      <input type="reset" value="reset">
+</form>
+
+<br>
+<table border="1" width="500">
+    <thead>
+        <tr>
+            <th>tháng</th>
+            <th>doanh thu</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr>
+            <td>một</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>hai</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td colspan="2">tổng: $180</td>   "tổng":
+        </tr>
+    </tbody>
+</table>
+    <table>
+        <thead>
+            <tr>
+                <th>quý</th>
+                <th>tháng</th>
+                <th>doanh thu</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">một</td>
+            <td>một</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>hai</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>ba</td>
+            <td>$100</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">hai</td>
+            <td>bốn</td>
+            <td>$100</td>  
+        </tr>
+        <tr>
+            <td>năm</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>sáu</td>
+            <td>$100</td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+
+    <table border="1" width="500" align="center">
+        <tr>
+            <th rospan="10">RA</th>
+            <th align="left"center"">order no</th>
+            <td>#RA001</td>
+        </tr>
+        <tr>
+            <th align="left">order date</th>
+            <td>02/12/2022</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>hai yen</td> 
+        </tr>
+        <tr>
+            <th>address</th>
+            <td>random</td>
+        </tr>
+
+    </table>
+  </body>
+</html>s
