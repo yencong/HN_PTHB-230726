@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="://cdnjs.cloudflahttpsre.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="./../asset/Paypal.png" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <img src="../asset/Paypal.png" alt="" width="130" />
+            </div>
+            <div class="header__infor">
+                <i class="fa-regular fa-bell"></i>
+                <div class="header__avatar">
+                    <img src="../asset/th.jpg" alt="" width="50" />
+                    <span>yenbaby</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container__wrapper">
+            <section class="navigate">
+                <span>Home</span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+                <span>hotel list</span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+                <span>hotel detail</span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </section>
+
+            <section class="container__information">
+                <h1 class="information__title">Confirm Your Book</h1>
+
+                <div class="container__yourtour">
+                    <h2 class="yourtour_title">Your Tour</h2>
+                    <div class="contact__input">
+                        <div class="container__input--date">
+                            <label for="data">Date</label>
+                            <input type="date" id="data" disabled />
+                        </div>
+                        <label for="data"><i class="fa-regular fa-pen-to-square"></i></label>
+                    </div>
+                    <div class="contact__input">
+                        <div class="container__input--date">
+                            <label for="text">Traveller</label>
+                            <input type="text" id="text" value="1 passenger" disabled />
+                        </div>
+                        <label for="text"><i class="fa-regular fa-pen-to-square"></i></label>
+                    </div>
+                </div>
+                <div class="container__creditCards">
+                    <h2>Credit Cards</h2>
+                    <div class="payment-method">
+                        <div class="payment active">
+                            <img src="../asset/Mastercard-logo.svg.png" alt="" />
+                        </div>
+                        <div class="payment">
+                            <img src="../asset/Paypal.png" alt="" />
+                        </div>
+                        <div class="payment">
+                            <img src="../asset/Visa-Logo.png" alt="" />
+                        </div>
+                        <div class="payment">
+                            <img src="../asset/american-express.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="payment__card">
+                        <div class="payment__card--green">
+                            <div class="icon">
+                                <i class="fa-solid fa-atom"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                            <div class="infor">
+                                <div>1900.8888.9999</div>
+                                <div class="name">
+                                    <span>NGUYEN THI HAI YEN</span>
+                                    <img src="../asset/mastercard.png" alt="" width="50" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment__card--item payment__card--blue">
+                            <div class="icon">
+                                <i class="fa-solid fa-atom"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                            <div class="infor">
+                                <div>1900.7777.8888</div>
+                                <div class="name">
+                                    <span>NGUYEN THI HAI YEN</span>
+                                    <img src="../asset/mastercard.png" alt="" width="50" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-number">
+                            <label for="card_number">Card Number</label>
+                            <input type="text" id="card_number" />
+                        </div>
+                        <div class="card-more">
+                            <div class="card-number">
+                                <label for="card_number">card number</label>
+                                <input type="text" id="card_number" />  
+                            </div>
+                        </div>
+                        <div class="card-number">
+                            <label for="card_number">card number</label>
+                            <input type="text" id="card_number" />
+                        </div>
+                    </div>
+
+                    <div class="check-box">
+                        <input type="checkbox" id="checkbox" />
+                        <label for="checkbox">save Card</label>
+                    </div>
+                    <button class="confirm-btn">confirm and reserves</button>
+                </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
